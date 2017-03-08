@@ -57,11 +57,14 @@ input:focus{
 	outline: none;
 }
 body{
-background: #2BC0E4; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #2BC0E4 , #EAECC6); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #2BC0E4 , #EAECC6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+	background: -webkit-linear-gradient(90deg, #b6eae1 10%, #D2FBAD 90%); /* Chrome 10+, Saf5.1+ */
+	background: -moz-linear-gradient(90deg, #b6eae1 10%, #D2FBAD 90%); /* FF3.6+ */ 
+	background: linear-gradient(90deg, #b6eae1 10%, #D2FBAD 90%); /* W3C */
 }
+
+
+
+
 #container{
 	width: 360px;
 	margin: 100px auto;
